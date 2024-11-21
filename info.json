@@ -1,0 +1,14 @@
+{
+  "name": "botsbotsbots-fast",
+  "version": "2.1.2",
+  "factorio_version": "2.0",
+  "title": "Bots Bots Bots!(fast)",
+  "author": "J3n50m4t",
+  "contact": "",
+  "homepage": "",
+  "dependencies": [
+    "base >= 2.0.0"
+    "! botsbotsbots"
+  ],
+  "description": "Logistic robots are available from the start. Adds a new tier of steam-powered robots for the early game, and several new tiers for later."
+}

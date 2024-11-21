@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.1.2
+  Bugfixes:
+    - Fixed typo in prototype generation to properly include construction robot sprites
+    - Fixed prototype generation for steam construction bots as they use a custom sprite
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+  Changes:
+    - Began keeping a changelog
+    - Completely redid prototype generation of robots to copy the default robots and tweak values, rather than defining an entirely new prototype from scratch
+    - Also redid entity prototype of Roboports to copy base entities and modify them for similar reasons
+    - Robots now have their stats scale with a function based on their tier, rather than by arbitrary values
+  Bugfixes:
+    - Updated recipe for robot 1 to not use flying robot frames as the unlock science is pre-oil
