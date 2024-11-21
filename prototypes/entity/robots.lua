@@ -4,7 +4,7 @@ local sounds = require("__base__.prototypes.entity.sounds")
 
 function botsbotsbots.logistics.logistic_robot_idle(level)
     return {
-        filename = "__botsbotsbots__/graphics/entity/robots/logistic-robot-" .. level .. ".png",
+        filename = "__botsbotsbots-fast__/graphics/entity/robots/logistic-robot-" .. level .. ".png",
         priority = "high",
         line_length = 16,
         width = 41,
@@ -14,7 +14,7 @@ function botsbotsbots.logistics.logistic_robot_idle(level)
         direction_count = 16,
         y = 42,
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/robots/hr-logistic-robot-" .. level .. ".png",
+            filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-logistic-robot-" .. level .. ".png",
             priority = "high",
             line_length = 16,
             width = 80,
@@ -30,7 +30,7 @@ end
 
 function botsbotsbots.logistics.logistic_robot_idle_with_cargo(level)
     return {
-        filename = "__botsbotsbots__/graphics/entity/robots/logistic-robot-" .. level .. ".png",
+        filename = "__botsbotsbots-fast__/graphics/entity/robots/logistic-robot-" .. level .. ".png",
         priority = "high",
         line_length = 16,
         width = 41,
@@ -39,7 +39,7 @@ function botsbotsbots.logistics.logistic_robot_idle_with_cargo(level)
         shift = {0.015625, -0.09375},
         direction_count = 16,
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/robots/hr-logistic-robot-" .. level .. ".png",
+            filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-logistic-robot-" .. level .. ".png",
             priority = "high",
             line_length = 16,
             width = 80,
@@ -54,7 +54,7 @@ end
 
 function botsbotsbots.logistics.logistic_robot_in_motion(level)
     return {
-        filename = "__botsbotsbots__/graphics/entity/robots/logistic-robot-" .. level .. ".png",
+        filename = "__botsbotsbots-fast__/graphics/entity/robots/logistic-robot-" .. level .. ".png",
         priority = "high",
         line_length = 16,
         width = 41,
@@ -64,7 +64,7 @@ function botsbotsbots.logistics.logistic_robot_in_motion(level)
         direction_count = 16,
         y = 126,
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/robots/hr-logistic-robot-" .. level .. ".png",
+            filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-logistic-robot-" .. level .. ".png",
             priority = "high",
             line_length = 16,
             width = 80,
@@ -80,7 +80,7 @@ end
 
 function botsbotsbots.logistics.logistic_robot_in_motion_with_cargo(level)
     return {
-        filename = "__botsbotsbots__/graphics/entity/robots/logistic-robot-" .. level .. ".png",
+        filename = "__botsbotsbots-fast__/graphics/entity/robots/logistic-robot-" .. level .. ".png",
         priority = "high",
         line_length = 16,
         width = 41,
@@ -90,7 +90,7 @@ function botsbotsbots.logistics.logistic_robot_in_motion_with_cargo(level)
         direction_count = 16,
         y = 84,
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/robots/hr-logistic-robot-" .. level .. ".png",
+            filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-logistic-robot-" .. level .. ".png",
             priority = "high",
             line_length = 16,
             width = 80,
@@ -105,7 +105,7 @@ function botsbotsbots.logistics.logistic_robot_in_motion_with_cargo(level)
 end
 
 botsbotsbots.logistics.logistic_robot_shadow = {
-    filename = "__botsbotsbots__/graphics/entity/robots/logistic-robot-shadow.png",
+    filename = "__botsbotsbots-fast__/graphics/entity/robots/logistic-robot-shadow.png",
     priority = "high",
     line_length = 16,
     width = 59,
@@ -115,7 +115,7 @@ botsbotsbots.logistics.logistic_robot_shadow = {
     direction_count = 16,
     y = 23,
     hr_version = {
-        filename = "__botsbotsbots__/graphics/entity/robots/hr-logistic-robot-shadow.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-logistic-robot-shadow.png",
         priority = "high",
         line_length = 16,
         width = 115,
@@ -129,7 +129,7 @@ botsbotsbots.logistics.logistic_robot_shadow = {
 }
 
 botsbotsbots.logistics.logistic_robot_shadow_with_cargo = {
-    filename = "__botsbotsbots__/graphics/entity/robots/logistic-robot-shadow.png",
+    filename = "__botsbotsbots-fast__/graphics/entity/robots/logistic-robot-shadow.png",
     priority = "high",
     line_length = 16,
     width = 59,
@@ -138,7 +138,7 @@ botsbotsbots.logistics.logistic_robot_shadow_with_cargo = {
     shift = {0.96875, 0.609375},
     direction_count = 16,
     hr_version = {
-        filename = "__botsbotsbots__/graphics/entity/robots/hr-logistic-robot-shadow.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-logistic-robot-shadow.png",
         priority = "high",
         line_length = 16,
         width = 115,
@@ -152,7 +152,7 @@ botsbotsbots.logistics.logistic_robot_shadow_with_cargo = {
 
 function botsbotsbots.construction.construction_robot_idle(level)
     return {
-        filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-" .. level .. ".png",
+        filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-" .. level .. ".png",
         priority = "high",
         line_length = 16,
         width = 32,
@@ -161,7 +161,7 @@ function botsbotsbots.construction.construction_robot_idle(level)
         shift = {0, -0.15625},
         direction_count = 16,
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/robots/hr-construction-robot-" .. level .. ".png",
+            filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-construction-robot-" .. level .. ".png",
             priority = "high",
             line_length = 16,
             width = 66,
@@ -176,7 +176,7 @@ end
 
 function botsbotsbots.construction.construction_robot_in_motion(level)
     return {
-        filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-" .. level .. ".png",
+        filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-" .. level .. ".png",
         priority = "high",
         line_length = 16,
         width = 32,
@@ -186,7 +186,7 @@ function botsbotsbots.construction.construction_robot_in_motion(level)
         direction_count = 16,
         y = 36,
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/robots/hr-construction-robot-" .. level .. ".png",
+            filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-construction-robot-" .. level .. ".png",
             priority = "high",
             line_length = 16,
             width = 66,
@@ -202,7 +202,7 @@ end
 
 function botsbotsbots.construction.construction_robot_working(level)
     return {
-        filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-working-" .. level .. ".png",
+        filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-working-" .. level .. ".png",
         priority = "high",
         line_length = 2,
         width = 28,
@@ -212,7 +212,7 @@ function botsbotsbots.construction.construction_robot_working(level)
         direction_count = 16,
         animation_speed = 0.3,
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/robots/hr-construction-robot-working-" .. level .. ".png",
+            filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-construction-robot-working-" .. level .. ".png",
             priority = "high",
             line_length = 2,
             width = 57,
@@ -227,7 +227,7 @@ function botsbotsbots.construction.construction_robot_working(level)
 end
 
 botsbotsbots.construction.construction_robot_shadow = {
-    filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-shadow.png",
+    filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-shadow.png",
     priority = "high",
     line_length = 16,
     width = 50,
@@ -236,7 +236,7 @@ botsbotsbots.construction.construction_robot_shadow = {
     shift = {1.09375, 0.59375},
     direction_count = 16,
     hr_version = {
-        filename = "__botsbotsbots__/graphics/entity/robots/hr-construction-robot-shadow.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-construction-robot-shadow.png",
         priority = "high",
         line_length = 16,
         width = 104,
@@ -250,7 +250,7 @@ botsbotsbots.construction.construction_robot_shadow = {
 
 botsbotsbots.construction.construction_robot_shadow_working = {
     stripes = util.multiplystripes(2, {{
-                                           filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-shadow.png",
+                                           filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-shadow.png",
                                            width_in_frames = 16,
                                            height_in_frames = 1,
                                        }}),
@@ -263,7 +263,7 @@ botsbotsbots.construction.construction_robot_shadow_working = {
     direction_count = 16,
     hr_version = {
         stripes = util.multiplystripes(2, {{
-                                               filename = "__botsbotsbots__/graphics/entity/robots/hr-construction-robot-shadow.png",
+                                               filename = "__botsbotsbots-fast__/graphics/entity/robots/hr-construction-robot-shadow.png",
                                                width_in_frames = 16,
                                                height_in_frames = 1,
                                            }}),
@@ -388,7 +388,7 @@ function botsbotsbots.create_robot(bot_type, tier)
     end
 
     bot.name = name
-    bot.icon = "__botsbotsbots__/graphics/icons/robots/" .. bot_type .. "-robot-" .. tier .. ".png"
+    bot.icon = "__botsbotsbots-fast__/graphics/icons/robots/" .. bot_type .. "-robot-" .. tier .. ".png"
     bot.icon_size = 32
     bot.minable = {
         mining_time = 0.1,
@@ -399,7 +399,7 @@ function botsbotsbots.create_robot(bot_type, tier)
 
     if tier == 0 then
         --steam bots are sloooooow (tier * tier = 1 so this is valid)
-        bot.speed = bot.speed * 2
+        bot.speed = bot.speed * 3
         bot.max_energy = "1MJ"
         bot.energy_per_tick = "0.02kJ"
         bot.energy_per_move = "1kJ"
@@ -415,7 +415,7 @@ function botsbotsbots.create_robot(bot_type, tier)
         bot.working_sound = {
             max_sounds_per_type = 3,
             sound = {{
-                         filename = "__botsbotsbots__/sound/ticktock.ogg",
+                         filename = "__botsbotsbots-fast__/sound/ticktock.ogg",
                          volume = 0.333,
                      }},
             fade_in_ticks = 10,
@@ -435,7 +435,7 @@ function botsbotsbots.create_robot(bot_type, tier)
 
     if bot_type == "construction" then
         --construction bots are 20% faster in base game, replicate that here
-        bot.speed = bot.speed * 3.20
+        bot.speed = bot.speed * 3.6
     end
 
     if tier == 5 then
@@ -451,7 +451,7 @@ function botsbotsbots.create_robot(bot_type, tier)
                 draw_as_shadow = false,
                 draw_as_light = false,
                 draw_as_glow = false,
-                filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-0.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-0.png",
                 blend_mode = nil,
                 animation_speed = nil,
                 repeat_count = nil,
@@ -471,7 +471,7 @@ function botsbotsbots.create_robot(bot_type, tier)
                 draw_as_shadow = false,
                 draw_as_light = false,
                 draw_as_glow = false,
-                filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-working-0.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-working-0.png",
                 blend_mode = nil,
                 animation_speed = nil,
                 repeat_count = nil,
@@ -491,7 +491,7 @@ function botsbotsbots.create_robot(bot_type, tier)
             draw_as_shadow = true,
             draw_as_light = false,
             draw_as_glow = false,
-            filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-shadow-0.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-shadow-0.png",
             blend_mode = nil,
             animation_speed = nil,
             repeat_count = nil,
@@ -511,7 +511,7 @@ function botsbotsbots.create_robot(bot_type, tier)
             draw_as_shadow = true,
             draw_as_light = false,
             draw_as_glow = false,
-            filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-shadow-0.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-shadow-0.png",
             blend_mode = nil,
             animation_speed = nil,
             repeat_count = nil,
@@ -531,7 +531,7 @@ function botsbotsbots.create_robot(bot_type, tier)
             draw_as_shadow = true,
             draw_as_light = false,
             draw_as_glow = false,
-            filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-working-shadow-0.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-working-shadow-0.png",
             blend_mode = nil,
             animation_speed = nil,
             repeat_count = nil,
@@ -552,7 +552,7 @@ function botsbotsbots.create_robot(bot_type, tier)
                            draw_as_shadow = false,
                            draw_as_light = false,
                            draw_as_glow = false,
-                           filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-0.png",
+                           filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-0.png",
                            blend_mode = nil,
                            animation_speed = nil,
                            repeat_count = nil,
@@ -571,7 +571,7 @@ function botsbotsbots.create_robot(bot_type, tier)
                            draw_as_shadow = false,
                            draw_as_light = false,
                            draw_as_glow = true,
-                           filename = "__botsbotsbots__/graphics/entity/robots/construction-robot-glow-0.png",
+                           filename = "__botsbotsbots-fast__/graphics/entity/robots/construction-robot-glow-0.png",
                            blend_mode = "additive",
                            animation_speed = nil,
                            repeat_count = nil,

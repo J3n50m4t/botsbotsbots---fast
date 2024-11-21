@@ -2,7 +2,7 @@ data:extend({{
     -- early steam robots
     type = "technology",
     name = "bots-robots-steamworks",
-    icon = "__botsbotsbots__/graphics/icons/technology/robotics-0.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/technology/robotics-0.png",
     icon_size = 64,
     effects = {{
         type = "unlock-recipe",
@@ -49,7 +49,7 @@ data:extend({{
     -- vanilla bots (red+green tech)
     type = "technology",
     name = "bots-robots-simple",
-    icon = "__botsbotsbots__/graphics/icons/technology/robotics-1.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/technology/robotics-1.png",
     icon_size = 64,
     effects = {{
         type = "unlock-recipe",
@@ -90,7 +90,7 @@ data:extend({{
     -- upgraded bots (red+green+blue tech)
     type = "technology",
     name = "bots-robots-advanced",
-    icon = "__botsbotsbots__/graphics/icons/technology/robotics-2.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/technology/robotics-2.png",
     icon_size = 64,
     effects = {{
         type = "unlock-recipe",
@@ -113,7 +113,7 @@ data:extend({{
     -- upgraded bots (red+green+blue+yellow tech)
     type = "technology",
     name = "bots-robots-superiour",
-    icon = "__botsbotsbots__/graphics/icons/technology/robotics-3.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/technology/robotics-3.png",
     icon_size = 64,
     effects = {{
         type = "unlock-recipe",
@@ -136,7 +136,7 @@ data:extend({{
     -- upgraded bots (red+green+blue+yellow+purple tech)
     type = "technology",
     name = "bots-robots-astounding",
-    icon = "__botsbotsbots__/graphics/icons/technology/robotics-4.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/technology/robotics-4.png",
     icon_size = 64,
     effects = {{
         type = "unlock-recipe",
@@ -159,7 +159,7 @@ data:extend({{
     -- nuclearization (combine bot with nuclear fuel cell)
     type = "technology",
     name = "bots-robots-nuclear",
-    icon = "__botsbotsbots__/graphics/icons/technology/robotics-5.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/technology/robotics-5.png",
     icon_size = 64,
     effects = {{
         type = "unlock-recipe",

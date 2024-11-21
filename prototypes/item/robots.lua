@@ -1,17 +1,17 @@
 -- data.raw.item["logistic-robot"].order = "a[robot]-a[logistic-robot-1]"
 -- data.raw.item["logistic-robot"].subgroup = "bots-logistic-robots"
--- data.raw.item["logistic-robot"].icon = "__botsbotsbots__/graphics/icons/robots/logistic-robot-1.png"
+-- data.raw.item["logistic-robot"].icon = "__botsbotsbots-fast__/graphics/icons/robots/logistic-robot-1.png"
 -- data.raw.item["logistic-robot"].icon_size = 32
 -- data.raw.item["logistic-robot"].icon_mipmaps = nil
 -- data.raw.item["construction-robot"].order = "a[robot]-b[construction-robot-1]"
 -- data.raw.item["construction-robot"].subgroup = "bots-construction-robots"
--- data.raw.item["construction-robot"].icon = "__botsbotsbots__/graphics/icons/robots/construction-robot-1.png"
+-- data.raw.item["construction-robot"].icon = "__botsbotsbots-fast__/graphics/icons/robots/construction-robot-1.png"
 -- data.raw.item["construction-robot"].icon_size = 32
 -- data.raw.item["construction-robot"].icon_mipmaps = nil
 data:extend({{
     type = "item",
     name = "bots-logistic-robot-0",
-    icon = "__botsbotsbots__/graphics/icons/robots/logistic-robot-0.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/logistic-robot-0.png",
     icon_size = 32,
     subgroup = "bots-logistic-robots",
     order = "a[robot]-a[logistic-robot-0]",
@@ -20,7 +20,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-logistic-robot-1",
-    icon = "__botsbotsbots__/graphics/icons/robots/logistic-robot-1.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/logistic-robot-1.png",
     icon_size = 32,
     subgroup = "bots-logistic-robots",
     order = "a[robot]-a[logistic-robot-1]",
@@ -29,7 +29,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-logistic-robot-2",
-    icon = "__botsbotsbots__/graphics/icons/robots/logistic-robot-2.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/logistic-robot-2.png",
     icon_size = 32,
     subgroup = "bots-logistic-robots",
     order = "a[robot]-a[logistic-robot-2]",
@@ -38,7 +38,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-logistic-robot-3",
-    icon = "__botsbotsbots__/graphics/icons/robots/logistic-robot-3.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/logistic-robot-3.png",
     icon_size = 32,
     subgroup = "bots-logistic-robots",
     order = "a[robot]-a[logistic-robot-3]",
@@ -47,7 +47,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-logistic-robot-4",
-    icon = "__botsbotsbots__/graphics/icons/robots/logistic-robot-4.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/logistic-robot-4.png",
     icon_size = 32,
     subgroup = "bots-logistic-robots",
     order = "a[robot]-a[logistic-robot-4]",
@@ -56,7 +56,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-logistic-robot-5",
-    icon = "__botsbotsbots__/graphics/icons/robots/logistic-robot-5.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/logistic-robot-5.png",
     icon_size = 32,
     subgroup = "bots-logistic-robots",
     order = "a[robot]-a[logistic-robot-5]",
@@ -65,7 +65,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-construction-robot-0",
-    icon = "__botsbotsbots__/graphics/icons/robots/construction-robot-0.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/construction-robot-0.png",
     icon_size = 32,
     subgroup = "bots-construction-robots",
     order = "a[robot]-b[construction-robot-0]",
@@ -74,7 +74,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-construction-robot-1",
-    icon = "__botsbotsbots__/graphics/icons/robots/construction-robot-1.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/construction-robot-1.png",
     icon_size = 32,
     subgroup = "bots-construction-robots",
     order = "a[robot]-b[construction-robot-1]",
@@ -83,7 +83,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-construction-robot-2",
-    icon = "__botsbotsbots__/graphics/icons/robots/construction-robot-2.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/construction-robot-2.png",
     icon_size = 32,
     subgroup = "bots-construction-robots",
     order = "a[robot]-b[construction-robot-2]",
@@ -92,7 +92,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-construction-robot-3",
-    icon = "__botsbotsbots__/graphics/icons/robots/construction-robot-3.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/construction-robot-3.png",
     icon_size = 32,
     subgroup = "bots-construction-robots",
     order = "a[robot]-b[construction-robot-3]",
@@ -101,7 +101,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-construction-robot-4",
-    icon = "__botsbotsbots__/graphics/icons/robots/construction-robot-4.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/construction-robot-4.png",
     icon_size = 32,
     subgroup = "bots-construction-robots",
     order = "a[robot]-b[construction-robot-4]",
@@ -110,7 +110,7 @@ data:extend({{
 }, {
     type = "item",
     name = "bots-construction-robot-5",
-    icon = "__botsbotsbots__/graphics/icons/robots/construction-robot-5.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/robots/construction-robot-5.png",
     icon_size = 32,
     subgroup = "bots-construction-robots",
     order = "a[robot]-b[construction-robot-5]",

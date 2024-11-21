@@ -17,7 +17,7 @@ data:extend({
     {
     type = "roboport",
     name = "bots-roboport-0",
-    icon = "__botsbotsbots__/graphics/icons/roboport-0.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/roboport-0.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {
@@ -57,13 +57,13 @@ data:extend({
     charging_offsets = {{-0.85, -0.5}, {0.85, -0.5}},
     base = {
         layers = {{
-            filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-0.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-0.png",
             width = 128,
             height = 192,
             shift = {0, -0.5},
             scale = 0.5,
         }, {
-            filename = "__botsbotsbots__/graphics/entity/roboport/roboport-shadow-0.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-shadow-0.png",
             width = 256,
             height = 192,
             shift = {1, 0.5},
@@ -72,12 +72,12 @@ data:extend({
         }},
     },
     base_patch = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/blank.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/blank.png",
         width = 1,
         height = 1,
     },
     base_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-animation-0.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-animation-0.png",
         priority = "medium",
         width = 64,
         height = 96,
@@ -87,7 +87,7 @@ data:extend({
         scale = 0.5,
     },
     door_animation_up = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-down-0.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-down-0.png",
         priority = "medium",
         width = 96,
         height = 48,
@@ -97,7 +97,7 @@ data:extend({
         scale = 0.5,
     },
     door_animation_down = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-up-0.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-up-0.png",
         priority = "medium",
         width = 96,
         height = 48,
@@ -162,7 +162,7 @@ data:extend({
 }, {
     type = "roboport",
     name = "bots-roboport-1",
-    icon = "__botsbotsbots__/graphics/icons/roboport-1.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/roboport-1.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {
@@ -201,24 +201,24 @@ data:extend({
     charging_offsets = {{-1.5, -0.5}, {1.5, -0.5}, {1.5, 1.5}, {-1.5, 1.5}},
     base = {
         layers = {{
-            filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-1.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-1.png",
             width = 143,
             height = 135,
             shift = {0.5, 0.25},
             hr_version = {
-                filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-1.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-1.png",
                 width = 228,
                 height = 277,
                 shift = util.by_pixel(2, 7.75),
                 scale = 0.5,
             },
         }, {
-            filename = "__botsbotsbots__/graphics/entity/roboport/blank.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/blank.png",
             width = 1,
             height = 1,
             draw_as_shadow = true,
             hr_version = {
-                filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-shadow.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-shadow.png",
                 width = 294,
                 height = 201,
                 draw_as_shadow = true,
@@ -228,14 +228,14 @@ data:extend({
         }},
     },
     base_patch = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-patch-1.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-patch-1.png",
         priority = "medium",
         width = 69,
         height = 50,
         frame_count = 1,
         shift = {0.03125, 0.203125},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-patch-1.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-patch-1.png",
             priority = "medium",
             width = 138,
             height = 100,
@@ -245,7 +245,7 @@ data:extend({
         },
     },
     base_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-animation-1.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-animation-1.png",
         priority = "medium",
         width = 42,
         height = 31,
@@ -253,7 +253,7 @@ data:extend({
         animation_speed = 0.5,
         shift = {-0.5315, -1.9375},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-animation-1.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-animation-1.png",
             priority = "medium",
             width = 83,
             height = 59,
@@ -264,14 +264,14 @@ data:extend({
         },
     },
     door_animation_up = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-up-1.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-up-1.png",
         priority = "medium",
         width = 52,
         height = 20,
         frame_count = 16,
         shift = {0.015625, -0.875},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-door-up-1.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-door-up-1.png",
             priority = "medium",
             width = 97,
             height = 38,
@@ -281,14 +281,14 @@ data:extend({
         },
     },
     door_animation_down = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-down-1.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-down-1.png",
         priority = "medium",
         width = 52,
         height = 22,
         frame_count = 16,
         shift = {0.015625, -0.21875},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-door-down-1.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-door-down-1.png",
             priority = "medium",
             width = 97,
             height = 41,
@@ -298,7 +298,7 @@ data:extend({
         },
     },
     recharging_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-recharging.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-recharging.png",
         priority = "high",
         width = 37,
         height = 35,
@@ -347,7 +347,7 @@ data:extend({
 }, {
     type = "roboport",
     name = "bots-roboport-2",
-    icon = "__botsbotsbots__/graphics/icons/roboport-2.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/roboport-2.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {
@@ -386,24 +386,24 @@ data:extend({
     charging_offsets = {{-1.5, -0.5}, {1.5, -0.5}, {1.5, 1.5}, {-1.5, 1.5}},
     base = {
         layers = {{
-            filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-2.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-2.png",
             width = 143,
             height = 135,
             shift = {0.5, 0.25},
             hr_version = {
-                filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-2.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-2.png",
                 width = 228,
                 height = 277,
                 shift = util.by_pixel(2, 7.75),
                 scale = 0.5,
             },
         }, {
-            filename = "__botsbotsbots__/graphics/entity/roboport/blank.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/blank.png",
             width = 1,
             height = 1,
             draw_as_shadow = true,
             hr_version = {
-                filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-shadow.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-shadow.png",
                 width = 294,
                 height = 201,
                 draw_as_shadow = true,
@@ -413,14 +413,14 @@ data:extend({
         }},
     },
     base_patch = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-patch-2.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-patch-2.png",
         priority = "medium",
         width = 69,
         height = 50,
         frame_count = 1,
         shift = {0.03125, 0.203125},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-patch-2.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-patch-2.png",
             priority = "medium",
             width = 138,
             height = 100,
@@ -430,7 +430,7 @@ data:extend({
         },
     },
     base_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-animation-2.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-animation-2.png",
         priority = "medium",
         width = 42,
         height = 31,
@@ -438,7 +438,7 @@ data:extend({
         animation_speed = 0.5,
         shift = {-0.5315, -1.9375},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-animation-2.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-animation-2.png",
             priority = "medium",
             width = 83,
             height = 59,
@@ -449,14 +449,14 @@ data:extend({
         },
     },
     door_animation_up = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-up-2.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-up-2.png",
         priority = "medium",
         width = 52,
         height = 20,
         frame_count = 16,
         shift = {0.015625, -0.875},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-door-up-2.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-door-up-2.png",
             priority = "medium",
             width = 97,
             height = 38,
@@ -466,14 +466,14 @@ data:extend({
         },
     },
     door_animation_down = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-down-2.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-down-2.png",
         priority = "medium",
         width = 52,
         height = 22,
         frame_count = 16,
         shift = {0.015625, -0.21875},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-door-down-2.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-door-down-2.png",
             priority = "medium",
             width = 97,
             height = 41,
@@ -483,7 +483,7 @@ data:extend({
         },
     },
     recharging_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-recharging.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-recharging.png",
         priority = "high",
         width = 37,
         height = 35,
@@ -532,7 +532,7 @@ data:extend({
 }, {
     type = "roboport",
     name = "bots-roboport-3",
-    icon = "__botsbotsbots__/graphics/icons/roboport-3.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/roboport-3.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {
@@ -571,24 +571,24 @@ data:extend({
     charging_offsets = {{-1.5, -0.5}, {1.5, -0.5}, {1.5, 1.5}, {-1.5, 1.5}},
     base = {
         layers = {{
-            filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-3.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-3.png",
             width = 143,
             height = 135,
             shift = {0.5, 0.25},
             hr_version = {
-                filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-3.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-3.png",
                 width = 228,
                 height = 277,
                 shift = util.by_pixel(2, 7.75),
                 scale = 0.5,
             },
         }, {
-            filename = "__botsbotsbots__/graphics/entity/roboport/blank.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/blank.png",
             width = 1,
             height = 1,
             draw_as_shadow = true,
             hr_version = {
-                filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-shadow.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-shadow.png",
                 width = 294,
                 height = 201,
                 draw_as_shadow = true,
@@ -598,14 +598,14 @@ data:extend({
         }},
     },
     base_patch = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-patch-3.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-patch-3.png",
         priority = "medium",
         width = 69,
         height = 50,
         frame_count = 1,
         shift = {0.03125, 0.203125},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-patch-3.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-patch-3.png",
             priority = "medium",
             width = 138,
             height = 100,
@@ -615,7 +615,7 @@ data:extend({
         },
     },
     base_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-animation-3.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-animation-3.png",
         priority = "medium",
         width = 42,
         height = 31,
@@ -623,7 +623,7 @@ data:extend({
         animation_speed = 0.5,
         shift = {-0.5315, -1.9375},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-animation-3.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-animation-3.png",
             priority = "medium",
             width = 83,
             height = 59,
@@ -634,14 +634,14 @@ data:extend({
         },
     },
     door_animation_up = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-up-3.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-up-3.png",
         priority = "medium",
         width = 52,
         height = 20,
         frame_count = 16,
         shift = {0.015625, -0.875},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-door-up-3.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-door-up-3.png",
             priority = "medium",
             width = 97,
             height = 38,
@@ -651,14 +651,14 @@ data:extend({
         },
     },
     door_animation_down = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-down-3.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-down-3.png",
         priority = "medium",
         width = 52,
         height = 22,
         frame_count = 16,
         shift = {0.015625, -0.21875},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-door-down-3.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-door-down-3.png",
             priority = "medium",
             width = 97,
             height = 41,
@@ -668,7 +668,7 @@ data:extend({
         },
     },
     recharging_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-recharging.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-recharging.png",
         priority = "high",
         width = 37,
         height = 35,
@@ -717,7 +717,7 @@ data:extend({
 }, {
     type = "roboport",
     name = "bots-roboport-4",
-    icon = "__botsbotsbots__/graphics/icons/roboport-4.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/roboport-4.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {
@@ -756,24 +756,24 @@ data:extend({
     charging_offsets = {{-1.5, -0.5}, {1.5, -0.5}, {1.5, 1.5}, {-1.5, 1.5}},
     base = {
         layers = {{
-            filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-4.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-4.png",
             width = 143,
             height = 135,
             shift = {0.5, 0.25},
             hr_version = {
-                filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-4.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-4.png",
                 width = 228,
                 height = 277,
                 shift = util.by_pixel(2, 7.75),
                 scale = 0.5,
             },
         }, {
-            filename = "__botsbotsbots__/graphics/entity/roboport/blank.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/blank.png",
             width = 1,
             height = 1,
             draw_as_shadow = true,
             hr_version = {
-                filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-shadow.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-shadow.png",
                 width = 294,
                 height = 201,
                 draw_as_shadow = true,
@@ -783,14 +783,14 @@ data:extend({
         }},
     },
     base_patch = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-patch-4.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-patch-4.png",
         priority = "medium",
         width = 69,
         height = 50,
         frame_count = 1,
         shift = {0.03125, 0.203125},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-patch-4.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-patch-4.png",
             priority = "medium",
             width = 138,
             height = 100,
@@ -800,7 +800,7 @@ data:extend({
         },
     },
     base_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-animation-4.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-animation-4.png",
         priority = "medium",
         width = 42,
         height = 31,
@@ -808,7 +808,7 @@ data:extend({
         animation_speed = 0.5,
         shift = {-0.5315, -1.9375},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-animation-4.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-animation-4.png",
             priority = "medium",
             width = 83,
             height = 59,
@@ -819,14 +819,14 @@ data:extend({
         },
     },
     door_animation_up = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-up-4.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-up-4.png",
         priority = "medium",
         width = 52,
         height = 20,
         frame_count = 16,
         shift = {0.015625, -0.875},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-door-up-4.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-door-up-4.png",
             priority = "medium",
             width = 97,
             height = 38,
@@ -836,14 +836,14 @@ data:extend({
         },
     },
     door_animation_down = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-down-4.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-down-4.png",
         priority = "medium",
         width = 52,
         height = 22,
         frame_count = 16,
         shift = {0.015625, -0.21875},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-door-down-4.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-door-down-4.png",
             priority = "medium",
             width = 97,
             height = 41,
@@ -853,7 +853,7 @@ data:extend({
         },
     },
     recharging_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-recharging.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-recharging.png",
         priority = "high",
         width = 37,
         height = 35,
@@ -902,7 +902,7 @@ data:extend({
 }, {
     type = "roboport",
     name = "bots-roboport-5",
-    icon = "__botsbotsbots__/graphics/icons/roboport-5.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/roboport-5.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {
@@ -941,24 +941,24 @@ data:extend({
     charging_offsets = {{-1.5, -0.5}, {1.5, -0.5}, {1.5, 1.5}, {-1.5, 1.5}},
     base = {
         layers = {{
-            filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-5.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-5.png",
             width = 143,
             height = 135,
             shift = {0.5, 0.25},
             hr_version = {
-                filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-5.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-5.png",
                 width = 228,
                 height = 277,
                 shift = util.by_pixel(2, 7.75),
                 scale = 0.5,
             },
         }, {
-            filename = "__botsbotsbots__/graphics/entity/roboport/blank.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/blank.png",
             width = 1,
             height = 1,
             draw_as_shadow = true,
             hr_version = {
-                filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-shadow.png",
+                filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-shadow.png",
                 width = 294,
                 height = 201,
                 draw_as_shadow = true,
@@ -968,14 +968,14 @@ data:extend({
         }},
     },
     base_patch = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-patch-5.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-patch-5.png",
         priority = "medium",
         width = 69,
         height = 50,
         frame_count = 1,
         shift = {0.03125, 0.203125},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-patch-5.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-patch-5.png",
             priority = "medium",
             width = 138,
             height = 100,
@@ -985,7 +985,7 @@ data:extend({
         },
     },
     base_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-base-animation-5.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-base-animation-5.png",
         priority = "medium",
         width = 42,
         height = 31,
@@ -993,7 +993,7 @@ data:extend({
         animation_speed = 0.5,
         shift = {-0.5315, -1.9375},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-base-animation-5.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-base-animation-5.png",
             priority = "medium",
             width = 83,
             height = 59,
@@ -1004,14 +1004,14 @@ data:extend({
         },
     },
     door_animation_up = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-up-5.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-up-5.png",
         priority = "medium",
         width = 52,
         height = 20,
         frame_count = 16,
         shift = {0.015625, -0.875},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-door-up-5.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-door-up-5.png",
             priority = "medium",
             width = 97,
             height = 38,
@@ -1021,14 +1021,14 @@ data:extend({
         },
     },
     door_animation_down = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-door-down-5.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-door-down-5.png",
         priority = "medium",
         width = 52,
         height = 22,
         frame_count = 16,
         shift = {0.015625, -0.21875},
         hr_version = {
-            filename = "__botsbotsbots__/graphics/entity/roboport/hr-roboport-door-down-5.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/roboport/hr-roboport-door-down-5.png",
             priority = "medium",
             width = 97,
             height = 41,
@@ -1038,7 +1038,7 @@ data:extend({
         },
     },
     recharging_animation = {
-        filename = "__botsbotsbots__/graphics/entity/roboport/roboport-recharging.png",
+        filename = "__botsbotsbots-fast__/graphics/entity/roboport/roboport-recharging.png",
         priority = "high",
         width = 37,
         height = 35,

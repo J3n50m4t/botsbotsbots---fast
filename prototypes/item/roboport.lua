@@ -9,7 +9,7 @@ function botsbotsbots.create_roboport_item(tier)
     roboport.icon_size = 32
     roboport.subgroup = "bots-logistic-roboport"
     roboport.order = "c[signal]-a[roboport-" .. tier .. "]"
-    roboport.icon = "__botsbotsbots__/graphics/icons/roboport-" .. tier .. ".png"
+    roboport.icon = "__botsbotsbots-fast__/graphics/icons/roboport-" .. tier .. ".png"
     return roboport
 end
 

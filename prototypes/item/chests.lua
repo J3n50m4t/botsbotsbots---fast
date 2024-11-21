@@ -1,7 +1,7 @@
 data:extend({{
     type = "item",
     name = "simple-logistic-chest-passive-provider",
-    icon = "__botsbotsbots__/graphics/icons/logistic-chest-passive-provider.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/logistic-chest-passive-provider.png",
     icon_size = 64,
     icon_mipmaps = 4,
     subgroup = "container-0",
@@ -11,7 +11,7 @@ data:extend({{
 }, {
     type = "item",
     name = "simple-logistic-chest-active-provider",
-    icon = "__botsbotsbots__/graphics/icons/logistic-chest-active-provider.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/logistic-chest-active-provider.png",
     icon_size = 64,
     icon_mipmaps = 4,
     subgroup = "container-0",
@@ -21,7 +21,7 @@ data:extend({{
 }, {
     type = "item",
     name = "simple-logistic-chest-storage",
-    icon = "__botsbotsbots__/graphics/icons/logistic-chest-storage.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/logistic-chest-storage.png",
     icon_size = 64,
     icon_mipmaps = 4,
     subgroup = "container-0",
@@ -31,7 +31,7 @@ data:extend({{
 }, {
     type = "item",
     name = "simple-logistic-chest-buffer",
-    icon = "__botsbotsbots__/graphics/icons/logistic-chest-buffer.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/logistic-chest-buffer.png",
     icon_size = 64,
     icon_mipmaps = 4,
     subgroup = "container-0",
@@ -41,7 +41,7 @@ data:extend({{
 }, {
     type = "item",
     name = "simple-logistic-chest-requester",
-    icon = "__botsbotsbots__/graphics/icons/logistic-chest-requester.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/logistic-chest-requester.png",
     icon_size = 64,
     icon_mipmaps = 4,
     subgroup = "container-0",

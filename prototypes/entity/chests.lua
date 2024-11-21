@@ -2,7 +2,7 @@ local sounds = require("__base__/prototypes/entity/sounds")
 data:extend({{
     type = "logistic-container",
     name = "simple-logistic-chest-passive-provider",
-    icon = "__botsbotsbots__/graphics/icons/logistic-chest-passive-provider.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/logistic-chest-passive-provider.png",
     icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.1, result = "simple-logistic-chest-passive-provider"},
@@ -36,7 +36,7 @@ data:extend({{
       layers =
       {
         {
-          filename = "__botsbotsbots__/graphics/entity/logistic-chest/logistic-chest-passive-provider.png",
+          filename = "__botsbotsbots-fast__/graphics/entity/logistic-chest/logistic-chest-passive-provider.png",
           priority = "extra-high",
           width = 34,
           height = 38,
@@ -44,7 +44,7 @@ data:extend({{
           shift = util.by_pixel(0, -2),
           hr_version =
           {
-            filename = "__botsbotsbots__/graphics/entity/logistic-chest/hr-logistic-chest-passive-provider.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/logistic-chest/hr-logistic-chest-passive-provider.png",
             priority = "extra-high",
             width = 66,
             height = 74,
@@ -82,7 +82,7 @@ data:extend({{
   {
     type = "logistic-container",
     name = "simple-logistic-chest-active-provider",
-    icon = "__botsbotsbots__/graphics/icons/logistic-chest-active-provider.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/logistic-chest-active-provider.png",
     icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.1, result = "simple-logistic-chest-active-provider"},
@@ -116,7 +116,7 @@ data:extend({{
       layers =
       {
         {
-          filename = "__botsbotsbots__/graphics/entity/logistic-chest/logistic-chest-active-provider.png",
+          filename = "__botsbotsbots-fast__/graphics/entity/logistic-chest/logistic-chest-active-provider.png",
           priority = "extra-high",
           width = 34,
           height = 38,
@@ -124,7 +124,7 @@ data:extend({{
           shift = util.by_pixel(0, -2),
           hr_version =
           {
-            filename = "__botsbotsbots__/graphics/entity/logistic-chest/hr-logistic-chest-active-provider.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/logistic-chest/hr-logistic-chest-active-provider.png",
             priority = "extra-high",
             width = 66,
             height = 74,
@@ -162,7 +162,7 @@ data:extend({{
   {
     type = "logistic-container",
     name = "simple-logistic-chest-storage",
-    icon = "__botsbotsbots__/graphics/icons/logistic-chest-storage.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/logistic-chest-storage.png",
     icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.1, result = "simple-logistic-chest-storage"},
@@ -197,7 +197,7 @@ data:extend({{
       layers =
       {
         {
-          filename = "__botsbotsbots__/graphics/entity/logistic-chest/logistic-chest-storage.png",
+          filename = "__botsbotsbots-fast__/graphics/entity/logistic-chest/logistic-chest-storage.png",
           priority = "extra-high",
           width = 34,
           height = 38,
@@ -205,7 +205,7 @@ data:extend({{
           shift = util.by_pixel(0, -2),
           hr_version =
           {
-            filename = "__botsbotsbots__/graphics/entity/logistic-chest/hr-logistic-chest-storage.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/logistic-chest/hr-logistic-chest-storage.png",
             priority = "extra-high",
             width = 66,
             height = 74,
@@ -243,7 +243,7 @@ data:extend({{
   {
     type = "logistic-container",
     name = "simple-logistic-chest-buffer",
-    icon = "__botsbotsbots__/graphics/icons/logistic-chest-buffer.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/logistic-chest-buffer.png",
     icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.1, result = "simple-logistic-chest-buffer"},
@@ -277,7 +277,7 @@ data:extend({{
       layers =
       {
         {
-          filename = "__botsbotsbots__/graphics/entity/logistic-chest/logistic-chest-buffer.png",
+          filename = "__botsbotsbots-fast__/graphics/entity/logistic-chest/logistic-chest-buffer.png",
           priority = "extra-high",
           width = 34,
           height = 38,
@@ -285,7 +285,7 @@ data:extend({{
           shift = util.by_pixel(0, -2),
           hr_version =
           {
-            filename = "__botsbotsbots__/graphics/entity/logistic-chest/hr-logistic-chest-buffer.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/logistic-chest/hr-logistic-chest-buffer.png",
             priority = "extra-high",
             width = 66,
             height = 72,
@@ -323,7 +323,7 @@ data:extend({{
   {
     type = "logistic-container",
     name = "simple-logistic-chest-requester",
-    icon = "__botsbotsbots__/graphics/icons/logistic-chest-requester.png",
+    icon = "__botsbotsbots-fast__/graphics/icons/logistic-chest-requester.png",
     icon_size = 64, icon_mipmaps = 4,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.1, result = "simple-logistic-chest-requester"},
@@ -357,7 +357,7 @@ data:extend({{
       layers =
       {
         {
-          filename = "__botsbotsbots__/graphics/entity/logistic-chest/logistic-chest-requester.png",
+          filename = "__botsbotsbots-fast__/graphics/entity/logistic-chest/logistic-chest-requester.png",
           priority = "extra-high",
           width = 34,
           height = 38,
@@ -365,7 +365,7 @@ data:extend({{
           shift = util.by_pixel(0, -2),
           hr_version =
           {
-            filename = "__botsbotsbots__/graphics/entity/logistic-chest/hr-logistic-chest-requester.png",
+            filename = "__botsbotsbots-fast__/graphics/entity/logistic-chest/hr-logistic-chest-requester.png",
             priority = "extra-high",
             width = 66,
             height = 74,
