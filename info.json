@@ -7,7 +7,7 @@
   "contact": "",
   "homepage": "",
   "dependencies": [
-    "base >= 2.0.0"
+    "base >= 2.0.0", 
     "! botsbotsbots"
   ],
   "description": "Logistic robots are available from the start. Adds a new tier of steam-powered robots for the early game, and several new tiers for later."
