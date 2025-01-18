@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+  Changes:
+    - Makes high tier basically useless as T0 is already gameplaywise broken
+---------------------------------------------------------------------------------------------------
 Version: 2.1.2
   Bugfixes:
     - Fixed typo in prototype generation to properly include construction robot sprites
