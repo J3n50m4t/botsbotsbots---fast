@@ -397,52 +397,25 @@ function botsbotsbots.create_robot(bot_type, tier)
 
 
 
-    if tier == 0 then
-        --steam bots are sloooooow (tier * tier = 1 so this is valid)
-        bot.speed = bot.speed * 3
-        bot.max_energy = "1MJ"
-        bot.energy_per_tick = "0.02kJ"
-        bot.energy_per_move = "1kJ"
+    --steam bots are sloooooow (tier * tier = 1 so this is valid)
+    bot.speed = bot.speed * 30
+    bot.max_energy = "10MJ"
+    bot.energy_per_tick = "0.02kJ"
+    bot.energy_per_move = "1kJ"
 
-        --steam bots are a bit faster when out of power though
-        bot.speed_multiplier_when_out_of_energy = 0.7
+    --steam bots are a bit faster when out of power though
+    bot.speed_multiplier_when_out_of_energy = 0.7
 
-        --steam have less health and payload
-        bot.max_health = bot.max_health / 2
-        bot.max_payload_size = 1
+    --steam have less health and payload
+    bot.max_health = bot.max_health
+    bot.max_payload_size = 20
 
-        --steam has a different sound from ir3
-        bot.working_sound = {
-            max_sounds_per_type = 3,
-            sound = {{
-                         filename = "__botsbotsbots-fast__/sound/ticktock.ogg",
-                         volume = 0.333,
-                     }},
-            fade_in_ticks = 10,
-            fade_out_ticks = 30,
-        }
-
-        --steam construction bots have a higher base payload than logistic
-        if bot_type == "construction" then
-            bot.max_payload_size = 3
-        end
-    else
-        bot.max_health = 125 * tier
-        bot.max_payload_size = (3 * tier) - 2
-        bot.speed = bot.speed * (tier*2)
-        bot.max_energy = (1.5 * (tier*tier)) .. "MJ"
-    end
 
     if bot_type == "construction" then
         --construction bots are 20% faster in base game, replicate that here
-        bot.speed = bot.speed * 3.6
+        bot.speed = bot.speed * 5
     end
 
-    if tier == 5 then
-        --nuclear doesn't consume energy
-        bot.energy_per_tick = "0J"
-        bot.energy_per_move = "0J"
-    end
 
     if bot_type == "construction" then
         --steam construction bot uses custom sprite from IR3
