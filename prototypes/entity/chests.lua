@@ -28,10 +28,12 @@ data:extend({{
     logistic_mode = "passive-provider",
     open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.43 },
     close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.43 },
-    animation_sound = sounds.logistics_chest_open,
     vehicle_impact_sound = sounds.generic_impact,
-    opened_duration = logistic_chest_opened_duration,
-    animation =
+    robot_door =
+    {
+      animation_sound = sounds.logistics_chest_open,
+      opened_duration = 7,
+      animation =
     {
       layers =
       {
@@ -75,6 +77,7 @@ data:extend({{
         }
       }
     },
+    },
     circuit_wire_connection_point = circuit_connector_definitions["chest"].points,
     circuit_connector_sprites = circuit_connector_definitions["chest"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance
@@ -108,10 +111,12 @@ data:extend({{
     logistic_mode = "active-provider",
     open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.43 },
     close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.43 },
-    animation_sound = sounds.logistics_chest_open,
     vehicle_impact_sound = sounds.generic_impact,
-    opened_duration = logistic_chest_opened_duration,
-    animation =
+    robot_door =
+    {
+      animation_sound = sounds.logistics_chest_open,
+      opened_duration = 7,
+      animation =
     {
       layers =
       {
@@ -155,6 +160,7 @@ data:extend({{
         }
       }
     },
+    },
     circuit_wire_connection_point = circuit_connector_definitions["chest"].points,
     circuit_connector_sprites = circuit_connector_definitions["chest"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance
@@ -189,10 +195,12 @@ data:extend({{
     logistic_mode = "storage",
     open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.43 },
     close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.43 },
-    animation_sound = sounds.logistics_chest_open,
     vehicle_impact_sound = sounds.generic_impact,
-    opened_duration = logistic_chest_opened_duration,
-    animation =
+    robot_door =
+    {
+      animation_sound = sounds.logistics_chest_open,
+      opened_duration = 7,
+      animation =
     {
       layers =
       {
@@ -236,6 +244,7 @@ data:extend({{
         }
       }
     },
+    },
     circuit_wire_connection_point = circuit_connector_definitions["chest"].points,
     circuit_connector_sprites = circuit_connector_definitions["chest"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance
@@ -269,10 +278,12 @@ data:extend({{
     logistic_mode = "buffer",
     open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.43 },
     close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.43 },
-    animation_sound = sounds.logistics_chest_open,
     vehicle_impact_sound = sounds.generic_impact,
-    opened_duration = logistic_chest_opened_duration,
-    animation =
+    robot_door =
+    {
+      animation_sound = sounds.logistics_chest_open,
+      opened_duration = 7,
+      animation =
     {
       layers =
       {
@@ -316,6 +327,7 @@ data:extend({{
         }
       }
     },
+    },
     circuit_wire_connection_point = circuit_connector_definitions["chest"].points,
     circuit_connector_sprites = circuit_connector_definitions["chest"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance
@@ -349,10 +361,12 @@ data:extend({{
     logistic_mode = "requester",
     open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.43 },
     close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.43 },
-    animation_sound = sounds.logistics_chest_open,
     vehicle_impact_sound = sounds.generic_impact,
-    opened_duration = logistic_chest_opened_duration,
-    animation =
+    robot_door =
+    {
+      animation_sound = sounds.logistics_chest_open,
+      opened_duration = 7,
+      animation =
     {
       layers =
       {
@@ -395,6 +409,7 @@ data:extend({{
           }
         }
       }
+    },
     },
     circuit_wire_connection_point = circuit_connector_definitions["chest"].points,
     circuit_connector_sprites = circuit_connector_definitions["chest"].sprites,
